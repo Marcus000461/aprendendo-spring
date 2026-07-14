@@ -5,7 +5,6 @@ import com.falcao.aprendendospring.infrastructure.expections.ConflictExecption;
 import com.falcao.aprendendospring.infrastructure.expections.ResourceNotFoundExceptin;
 import com.falcao.aprendendospring.infrastructure.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
