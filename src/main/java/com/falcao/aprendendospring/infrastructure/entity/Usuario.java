@@ -49,4 +49,13 @@ public class Usuario implements UserDetails {
     public String getUsername() {
         return email;
     }
+
+    // Getters explícitos para compatibilidade com chamadas existentes
+    public String getEmail() {
+        return this.email;
+    }
+
+    public String getSenha() {
+        return this.senha;
+    }
 }
